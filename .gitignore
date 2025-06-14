@@ -1,0 +1,23 @@
+# Idea IDE Specific
+# Ignoruj wszystkie pliki .idea...
+.idea/
+
+# ...ale śledź te, które definiują wspólną konfigurację:
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+!.idea/libraries/
+!.idea/runConfigurations/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# Prywatne lub generowane pliki
+.idea/*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+
+data/database.db
+.venv
+private
